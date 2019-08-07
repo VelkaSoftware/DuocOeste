@@ -1,0 +1,38 @@
+.conatiner-buttons{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.btn{
+  border: none;
+  margin: 20px;
+  padding: 24px;
+  width: 220px;
+  font-family: "montserrat",sans-serif;
+  text-transform: uppercase;
+  border-radius: 12px;
+  cursor: pointer;
+  color: #fff;
+}
+.btn1{
+  background-image: linear-gradient(to left, #001b4d, #001b4d, #001b4d)
+}
+.btn2{
+  background-image: linear-gradient(to left,#F21940, #F21940,#F21940)
+}
+.btn3{
+  background-image: linear-gradient(to left,#F24D19, #F24D19, #F24D19)
+}
+.btn4{
+  background-image: linear-gradient(to left,#2680ff, #2680ff, #2680ff)
+}
+.btn5{
+  background-image: linear-gradient(to left,#40ff00, #40ff00,#40ff00)
+}
+.btn6{
+  background-image: linear-gradient(to left,#ffb517, #ffb517, #ffb517)
+}
+

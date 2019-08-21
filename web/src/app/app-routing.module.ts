@@ -1,14 +1,10 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-import {DashboardComponent} from "./dashboard/dashboard.component";
-import {AreaDetailComponent} from "./area-detail/area-detail.component";
+import { RouterModule, Routes } from '@angular/router';
+import { DashboardComponent } from "./dashboard/dashboard.component";
+import { FinanciamientoComponent } from "./financiamiento/financiamiento.component";
 
 
 const routes: Routes = [
-  {
-    path: 'area/:id',
-    component: AreaDetailComponent
-  },
   {
     path: 'inicio',
     component: DashboardComponent,
@@ -18,6 +14,10 @@ const routes: Routes = [
     path: '',
     redirectTo: '/inicio',
     pathMatch: 'full'
+  },
+  {
+    path: 'financiamiento',
+    component: FinanciamientoComponent,
   }
 ];
 
@@ -25,4 +25,5 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+}

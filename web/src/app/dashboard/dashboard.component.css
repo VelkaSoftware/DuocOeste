@@ -33,9 +33,10 @@
 .btn1 {
   margin-right: 0;
   background-color: #001b4d;
-  background-image: url("../../assets/icono.png");
+  background-image: url("../../assets/FinanciamientoDuoc.PNG");
   background-repeat: no-repeat;
-  background-size: 100% 50%;
+  background-size: 50% 30%;
+  background-position: top, center;
   /*
   Colorizar botón con un gradiente:
 
@@ -46,6 +47,11 @@
 .btn2 {
   margin-left: 0;
   background-color: #F21940;
+  background-image: url("../../assets/PastoralDuoc.PNG");
+  background-repeat: no-repeat;
+  background-size: 50% 30%;
+  background-position: top, center;
+
   /*
   background-image: linear-gradient(to left,#F21940, #F21940,#F21940)
    */
@@ -54,6 +60,10 @@
 .btn3 {
   margin-right: 0;
   background-color: #F24D19;
+  background-image: url("../../assets/DesarrolloLaboralDuoc.PNG");
+  background-repeat: no-repeat;
+  background-size: 50% 30%;
+  background-position: top, center;
   /*
   background-image: linear-gradient(to left, #F24D19, #F24D19, #F24D19)
    */
@@ -62,6 +72,10 @@
 .btn4 {
   margin-left: 0;
   background-color: #2680ff;
+  background-image: url("../../assets/ApoyoBienEstarDuoc.PNG");
+  background-repeat: no-repeat;
+  background-size: 50% 30%;
+  background-position: top, center;
   /*
   background-image: linear-gradient(to left, #2680ff, #2680ff, #2680ff)
    */
@@ -70,6 +84,10 @@
 .btn5 {
   margin-right: 0;
   background-color: #40ff00;
+  background-image: url("../../assets/DeportesDuoc.PNG");
+  background-repeat: no-repeat;
+  background-size: 50% 30%;
+  background-position: top, center;
   /*
 background-image: linear-gradient(to left, #40ff00, #40ff00, #40ff00)
    */
@@ -78,6 +96,10 @@ background-image: linear-gradient(to left, #40ff00, #40ff00, #40ff00)
 .btn6 {
   margin-left: 0;
   background-color: #ffb517;
+  background-image: url("../../assets/AsuntosEstudiantilesDuoc.PNG");
+  background-repeat: no-repeat;
+  background-size: 50% 30%;
+  background-position: top, center;
   /*
 background-image: linear-gradient(to left, #ffb517, #ffb517, #ffb517)
    */

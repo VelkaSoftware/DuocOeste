@@ -7,11 +7,13 @@
   border: none;
   margin: 20px;
   padding: 24px;
-  width: 60%; /* el ancho del botón es un 60% del tamaño de la pantalla */
+  width: 450px; /* el ancho del botón es un 60% del tamaño de la pantalla */
+  max-width: 60%;
   /*
   TODO: modificar ancho en base al tamaño de la pantalla usando @media, para pantallas grandes como computadores
    */
-  height: 80px;
+  height: 450px;
+  max-height: 60%;
   font-family: "montserrat", sans-serif;
   text-align: center;
   display: inline-block;
@@ -20,25 +22,20 @@
   cursor: pointer;
   color: #fff;
   font-size: 100%; /* hace la letra más grande y que se ajuste al tamaño de la pantalla*/
-  max-width: 450px;
 }
 
 .btn:hover {
-  height: 90px;
-  margin-top: 0;
   -moz-box-shadow: 0 0 4px 1px grey;
   -webkit-box-shadow: 0 0 4px 1px grey;
   box-shadow: 0 0 4px 1px grey;
 }
 
-img {
-  float: left;
-  border: 5px;
-  margin: 1px;
-}
-
 .btn1 {
+  margin-right: 0;
   background-color: #001b4d;
+  background-image: url("../../assets/icono.png");
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
   /*
   Colorizar botón con un gradiente:
 
@@ -47,6 +44,7 @@ img {
 }
 
 .btn2 {
+  margin-left: 0;
   background-color: #F21940;
   /*
   background-image: linear-gradient(to left,#F21940, #F21940,#F21940)
@@ -54,6 +52,7 @@ img {
 }
 
 .btn3 {
+  margin-right: 0;
   background-color: #F24D19;
   /*
   background-image: linear-gradient(to left, #F24D19, #F24D19, #F24D19)
@@ -61,6 +60,7 @@ img {
 }
 
 .btn4 {
+  margin-left: 0;
   background-color: #2680ff;
   /*
   background-image: linear-gradient(to left, #2680ff, #2680ff, #2680ff)
@@ -68,6 +68,7 @@ img {
 }
 
 .btn5 {
+  margin-right: 0;
   background-color: #40ff00;
   /*
 background-image: linear-gradient(to left, #40ff00, #40ff00, #40ff00)
@@ -75,6 +76,7 @@ background-image: linear-gradient(to left, #40ff00, #40ff00, #40ff00)
 }
 
 .btn6 {
+  margin-left: 0;
   background-color: #ffb517;
   /*
 background-image: linear-gradient(to left, #ffb517, #ffb517, #ffb517)

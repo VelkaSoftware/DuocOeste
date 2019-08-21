@@ -1,10 +1,10 @@
 <div class="c-buttons">
-  <form (click)="redirect('/financiamiento')">
-    <button class="btn btn1" type="submit">Financiamiento</button>
-  </form>
-  <button class="btn btn2">Pastoral</button>
-  <button class="btn btn3">Desarrollo Laboral</button>
-  <button class="btn btn4">Apoyo y Bienestar juvenil</button>
-  <button class="btn btn5">Deportes</button>
-  <button class="btn btn6">Asuntos estudiantiles</button>
+  <button (click)="redirect('/financiamiento')" class="btn btn1" type="submit">
+    <p class="txt">Financiamiento</p>
+  </button>
+  <button (click)="redirect('/pastoral')" class="btn btn2">Pastoral</button>
+  <button (click)="redirect('/desarrollo')" class="btn btn3">Desarrollo Laboral</button>
+  <button (click)="redirect('/apoyo')" class="btn btn4">Apoyo y Bienestar juvenil</button>
+  <button (click)="redirect('/deportes')" class="btn btn5">Deportes</button>
+  <button (click)="redirect('/asuntos')" class="btn btn6">Asuntos estudiantiles</button>
 </div>

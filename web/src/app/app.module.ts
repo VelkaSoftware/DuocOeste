@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { FinanciamientoComponent } from './financiamiento/financiamiento.component';
+import { AsuntosestudiantilesComponent } from './asuntosestudiantiles/asuntosestudiantiles.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     TopBarComponent,
-    FinanciamientoComponent
+    FinanciamientoComponent,
+    AsuntosestudiantilesComponent
   ],
   imports: [
     BrowserModule,

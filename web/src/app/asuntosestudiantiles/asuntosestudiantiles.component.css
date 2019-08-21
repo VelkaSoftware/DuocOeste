@@ -1,0 +1,52 @@
+.btn {
+
+  padding: 5px 15px;
+
+  background: #ccc;
+  height: 450px;
+  width: 450px;
+
+  cursor: pointer;
+
+  -webkit-border-radius: 5px; /* this is for chrome,safari */
+
+  border-radius: 5px;
+
+  color: green;
+
+  font-size: 20px;
+
+  text-transform: uppercase; /* all capital */
+
+}
+
+.btn1 {
+  color: #0033cc;
+  background-color: #66ccff;
+  font-family: "Arial Black";
+
+}
+
+.btn2 {
+  color: #ffffff;
+  background-image: linear-gradient(360deg, blue 50%, red 50%);
+  font-family: "Arial Black";
+}
+
+.btn3 {
+  color: #ffffff;
+  background-color: #3399ff;
+  font-family: "Arial Black";
+}
+
+.btn4 {
+  color: #ffffff;
+  background-image: linear-gradient(110deg, #f5676d, whitesmoke);
+  font-family: "Arial Black";
+}
+
+
+/*IMPORTANTE!
+Hay que cambiar el color y el tamaño de los colores, aún así los botones ya son funcionales.
+Besitos :*
+ */

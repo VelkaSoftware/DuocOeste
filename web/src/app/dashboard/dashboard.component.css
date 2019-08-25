@@ -30,9 +30,9 @@
   box-shadow: 0 0 4px 1px grey;
 }
 
-.btn1 {
+.btn1 { /*financiamiento*/
   margin-right: 0;
-  background-color: #001b4d;
+  background-color: #FFA500;
   background-image: url("../../assets/FinanciamientoDuoc.PNG");
   background-repeat: no-repeat;
   background-size: 50% 30%;
@@ -44,7 +44,7 @@
    */
 }
 
-.btn2 {
+.btn2 { /*pastoral*/
   margin-left: 0;
   background-color: #F21940;
   background-image: url("../../assets/PastoralDuoc.PNG");
@@ -57,9 +57,9 @@
    */
 }
 
-.btn3 {
+.btn3 { /* desarrollo laboral */
   margin-right: 0;
-  background-color: #F24D19;
+  background-color: #1E90FF;
   background-image: url("../../assets/DesarrolloLaboralDuoc.PNG");
   background-repeat: no-repeat;
   background-size: 50% 30%;
@@ -69,9 +69,9 @@
    */
 }
 
-.btn4 {
+.btn4 { /*apoyo y bienestar juvenil */
   margin-left: 0;
-  background-color: #2680ff;
+  background-color: #FFB6C1;
   background-image: url("../../assets/ApoyoBienEstarDuoc.PNG");
   background-repeat: no-repeat;
   background-size: 50% 30%;
@@ -81,9 +81,9 @@
    */
 }
 
-.btn5 {
+.btn5 { /*deportes */
   margin-right: 0;
-  background-color: #40ff00;
+  background-color: #228B22;
   background-image: url("../../assets/DeportesDuoc.PNG");
   background-repeat: no-repeat;
   background-size: 50% 30%;
@@ -93,9 +93,9 @@ background-image: linear-gradient(to left, #40ff00, #40ff00, #40ff00)
    */
 }
 
-.btn6 {
+.btn6 { /*asuntos estudiantiles*/
   margin-left: 0;
-  background-color: #ffb517;
+  background-color: #2E8B57;
   background-image: url("../../assets/AsuntosEstudiantilesDuoc.PNG");
   background-repeat: no-repeat;
   background-size: 50% 30%;
@@ -104,3 +104,4 @@ background-image: linear-gradient(to left, #40ff00, #40ff00, #40ff00)
 background-image: linear-gradient(to left, #ffb517, #ffb517, #ffb517)
    */
 }
+

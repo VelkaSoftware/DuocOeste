@@ -5,7 +5,7 @@
 
 .btn {
   border: none;
-  margin: 20px;
+  /*margin: 20px;*/
   padding: 24px;
   width: 450px; /* el ancho del botón es un 60% del tamaño de la pantalla */
   max-width: 60%;
@@ -31,7 +31,6 @@
 }
 
 .btn1 { /*financiamiento*/
-  margin-right: 0;
   background-color: #FFA500;
   background-image: url("../../assets/FinanciamientoDuoc.PNG");
   background-repeat: no-repeat;
@@ -45,7 +44,6 @@
 }
 
 .btn2 { /*pastoral*/
-  margin-left: 0;
   background-color: #F21940;
   background-image: url("../../assets/PastoralDuoc.PNG");
   background-repeat: no-repeat;
@@ -58,7 +56,6 @@
 }
 
 .btn3 { /* desarrollo laboral */
-  margin-right: 0;
   background-color: #1E90FF;
   background-image: url("../../assets/DesarrolloLaboralDuoc.PNG");
   background-repeat: no-repeat;
@@ -70,7 +67,6 @@
 }
 
 .btn4 { /*apoyo y bienestar juvenil */
-  margin-left: 0;
   background-color: #FFB6C1;
   background-image: url("../../assets/ApoyoBienEstarDuoc.PNG");
   background-repeat: no-repeat;
@@ -82,7 +78,6 @@
 }
 
 .btn5 { /*deportes */
-  margin-right: 0;
   background-color: #228B22;
   background-image: url("../../assets/DeportesDuoc.PNG");
   background-repeat: no-repeat;
@@ -94,7 +89,6 @@ background-image: linear-gradient(to left, #40ff00, #40ff00, #40ff00)
 }
 
 .btn6 { /*asuntos estudiantiles*/
-  margin-left: 0;
   background-color: #2E8B57;
   background-image: url("../../assets/AsuntosEstudiantilesDuoc.PNG");
   background-repeat: no-repeat;

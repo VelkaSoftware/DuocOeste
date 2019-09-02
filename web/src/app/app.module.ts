@@ -7,6 +7,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { FinanciamientoComponent } from './financiamiento/financiamiento.component';
 import { AsuntosestudiantilesComponent } from './asuntosestudiantiles/asuntosestudiantiles.component';
+import { PastoralComponent } from './pastoral/pastoral.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AsuntosestudiantilesComponent } from './asuntosestudiantiles/asuntosest
     DashboardComponent,
     TopBarComponent,
     FinanciamientoComponent,
-    AsuntosestudiantilesComponent
+    AsuntosestudiantilesComponent,
+    PastoralComponent
   ],
   imports: [
     BrowserModule,

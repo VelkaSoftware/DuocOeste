@@ -5,23 +5,27 @@
 
 .btn {
   border: none;
-  /*margin: 20px;*/
-  padding: 24px;
-  width: 450px; /* el ancho del botón es un 60% del tamaño de la pantalla */
-  max-width: 60%;
-  /*
-  TODO: modificar ancho en base al tamaño de la pantalla usando @media, para pantallas grandes como computadores
-   */
-  height: 450px;
-  max-height: 60%;
+  min-width: 300px;
+  max-width: 600px;
+  padding-top: 100%;
+  /*  padding: 100% 24px 24px;*/
+  display: inline-block;
+  /*border-radius: 12px;*/
+  cursor: pointer;
+  position: relative;
+  color: #fff;
+}
+
+.text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-size: 100%; /* hace la letra más grande y que se ajuste al tamaño de la pantalla*/
   font-family: "montserrat", sans-serif;
   text-align: center;
-  display: inline-block;
   text-transform: uppercase;
-  border-radius: 12px;
-  cursor: pointer;
-  color: #fff;
-  font-size: 100%; /* hace la letra más grande y que se ajuste al tamaño de la pantalla*/
 }
 
 .btn:hover {
@@ -34,7 +38,7 @@
   background-color: #FFA500;
   background-image: url("../../assets/FinanciamientoDuoc.PNG");
   background-repeat: no-repeat;
-  background-size: 50% 30%;
+  background-size: 30% 30%;
   background-position: top, center;
   /*
   Colorizar botón con un gradiente:
@@ -47,7 +51,7 @@
   background-color: #F21940;
   background-image: url("../../assets/PastoralDuoc.PNG");
   background-repeat: no-repeat;
-  background-size: 50% 30%;
+  background-size: 30% 30%;
   background-position: top, center;
 
   /*
@@ -59,7 +63,7 @@
   background-color: #1E90FF;
   background-image: url("../../assets/DesarrolloLaboralDuoc.PNG");
   background-repeat: no-repeat;
-  background-size: 50% 30%;
+  background-size: 30% 30%;
   background-position: top, center;
   /*
   background-image: linear-gradient(to left, #F24D19, #F24D19, #F24D19)
@@ -70,7 +74,7 @@
   background-color: #FFB6C1;
   background-image: url("../../assets/ApoyoBienEstarDuoc.PNG");
   background-repeat: no-repeat;
-  background-size: 50% 30%;
+  background-size: 30% 30%;
   background-position: top, center;
   /*
   background-image: linear-gradient(to left, #2680ff, #2680ff, #2680ff)
@@ -81,7 +85,7 @@
   background-color: #228B22;
   background-image: url("../../assets/DeportesDuoc.PNG");
   background-repeat: no-repeat;
-  background-size: 50% 30%;
+  background-size: 30% 30%;
   background-position: top, center;
   /*
 background-image: linear-gradient(to left, #40ff00, #40ff00, #40ff00)
@@ -92,10 +96,9 @@ background-image: linear-gradient(to left, #40ff00, #40ff00, #40ff00)
   background-color: #2E8B57;
   background-image: url("../../assets/AsuntosEstudiantilesDuoc.PNG");
   background-repeat: no-repeat;
-  background-size: 50% 30%;
+  background-size: 30% 30%;
   background-position: top, center;
   /*
 background-image: linear-gradient(to left, #ffb517, #ffb517, #ffb517)
    */
 }
-

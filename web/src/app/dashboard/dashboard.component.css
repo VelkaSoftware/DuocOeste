@@ -5,23 +5,27 @@
 
 .btn {
   border: none;
-  /*margin: 20px;*/
-  padding: 20%;
-  width: 45%; /* el ancho del botón es un 60% del tamaño de la pantalla */
-  max-width: 40%;
-  /*
-  TODO: modificar ancho en base al tamaño de la pantalla usando @media, para pantallas grandes como computadores
-   */
-  height: 44%;
-  max-height: 40%;
+  min-width: 300px;
+  max-width: 600px;
+  padding-top: 100%;
+  /*  padding: 100% 24px 24px;*/
+  display: inline-block;
+  /*border-radius: 1px;*/
+  cursor: pointer;
+  position: relative;
+  color: #000000;
+}
+
+.text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-size: 100%; /* hace la letra más grande y que se ajuste al tamaño de la pantalla*/
   font-family: "montserrat", sans-serif;
   text-align: center;
-  display: inline-block;
   text-transform: uppercase;
-  border-radius: 1px;
-  cursor: pointer;
-  color: #000000;
-  font-size: 100%; /* hace la letra más grande y que se ajuste al tamaño de la pantalla*/
 }
 
 .btn:hover {
@@ -98,4 +102,3 @@ background-image: linear-gradient(to left, #40ff00, #40ff00, #40ff00)
 background-image: linear-gradient(to left, #ffb517, #ffb517, #ffb517)
    */
 }
-

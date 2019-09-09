@@ -5,9 +5,8 @@
 
 .btn {
   border: none;
-  min-width: 300px;
-  max-width: 600px;
-  padding-top: 100%;
+  width: 300px;
+  padding-top: 300px;
   /*  padding: 100% 24px 24px;*/
   display: inline-block;
   /*border-radius: 1px;*/

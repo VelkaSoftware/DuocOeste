@@ -7,6 +7,11 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { FinanciamientoComponent } from './financiamiento/financiamiento.component';
 import { AsuntosestudiantilesComponent } from './asuntosestudiantiles/asuntosestudiantiles.component';
+import { PastoralComponent } from './pastoral/pastoral.component';
+import { DesarrolloComponent } from './desarrollo/desarrollo.component';
+import { ApoyoComponent } from './apoyo/apoyo.component';
+import { DeportesComponent } from './deportes/deportes.component';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +19,11 @@ import { AsuntosestudiantilesComponent } from './asuntosestudiantiles/asuntosest
     DashboardComponent,
     TopBarComponent,
     FinanciamientoComponent,
-    AsuntosestudiantilesComponent
+    AsuntosestudiantilesComponent,
+    PastoralComponent,
+    DesarrolloComponent,
+    ApoyoComponent,
+    DeportesComponent
   ],
   imports: [
     BrowserModule,

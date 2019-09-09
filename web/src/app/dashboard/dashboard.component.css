@@ -10,10 +10,10 @@
   padding-top: 100%;
   /*  padding: 100% 24px 24px;*/
   display: inline-block;
-  /*border-radius: 12px;*/
+  /*border-radius: 1px;*/
   cursor: pointer;
   position: relative;
-  color: #fff;
+  color: #000000;
 }
 
 .text {
@@ -38,8 +38,8 @@
   background-color: #FFA500;
   background-image: url("../../assets/FinanciamientoDuoc.PNG");
   background-repeat: no-repeat;
-  background-size: 30% 30%;
-  background-position: top, center;
+  background-size: 85% 85%;
+  background-position: center;
   /*
   Colorizar botón con un gradiente:
 
@@ -51,8 +51,8 @@
   background-color: #F21940;
   background-image: url("../../assets/PastoralDuoc.PNG");
   background-repeat: no-repeat;
-  background-size: 30% 30%;
-  background-position: top, center;
+  background-size: 85% 85%;
+  background-position: center;
 
   /*
   background-image: linear-gradient(to left,#F21940, #F21940,#F21940)
@@ -63,8 +63,8 @@
   background-color: #1E90FF;
   background-image: url("../../assets/DesarrolloLaboralDuoc.PNG");
   background-repeat: no-repeat;
-  background-size: 30% 30%;
-  background-position: top, center;
+  background-size: 85% 85%;
+  background-position: center;
   /*
   background-image: linear-gradient(to left, #F24D19, #F24D19, #F24D19)
    */
@@ -74,8 +74,8 @@
   background-color: #FFB6C1;
   background-image: url("../../assets/ApoyoBienEstarDuoc.PNG");
   background-repeat: no-repeat;
-  background-size: 30% 30%;
-  background-position: top, center;
+  background-size: 85% 85%;
+  background-position: center;
   /*
   background-image: linear-gradient(to left, #2680ff, #2680ff, #2680ff)
    */
@@ -85,8 +85,8 @@
   background-color: #228B22;
   background-image: url("../../assets/DeportesDuoc.PNG");
   background-repeat: no-repeat;
-  background-size: 30% 30%;
-  background-position: top, center;
+  background-size: 85% 85%;
+  background-position: center;
   /*
 background-image: linear-gradient(to left, #40ff00, #40ff00, #40ff00)
    */
@@ -96,8 +96,8 @@ background-image: linear-gradient(to left, #40ff00, #40ff00, #40ff00)
   background-color: #2E8B57;
   background-image: url("../../assets/AsuntosEstudiantilesDuoc.PNG");
   background-repeat: no-repeat;
-  background-size: 30% 30%;
-  background-position: top, center;
+  background-size: 85% 85%;
+  background-position: center;
   /*
 background-image: linear-gradient(to left, #ffb517, #ffb517, #ffb517)
    */

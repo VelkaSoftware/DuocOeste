@@ -6,3 +6,10 @@ img {
   justify-content: space-between;
   align-items: center;
 }
+
+.title {
+  font-size: 100%;
+  color: #ffffff;
+  font-weight: bolder;
+  padding-left: 5%;
+}

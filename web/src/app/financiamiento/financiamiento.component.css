@@ -12,3 +12,8 @@ img {
   display:block;
   margin:auto;
 }
+
+div {
+  padding: 30px;
+  text-align: justify;
+}

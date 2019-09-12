@@ -9,4 +9,6 @@ h3 {
 
 img {
   max-height: 600px;
+  display:block;
+  margin:auto;
 }

@@ -1,6 +1,5 @@
 img {
-  height: 60px;
-  padding: 3px;
+  max-height: 60px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

@@ -1,13 +1,17 @@
 .map {
-  max-width: 300px;
-  min-width: 60%;
-  max-height: 300px;
-  min-height: 60%;
+  max-width: 100%;
+  height: auto;
+  width: auto \9;
+  display: block;
+  margin: auto;
 }
 
 .bot {
-  max-width: 300px;
-  min-width: 60%;
-  max-height: 300px;
-  min-height: 60%;
+  min-width: 100%;
+  min-height: 500px;
+  max-height: 800px;
+}
+
+.footer-container {
+  margin: auto;
 }

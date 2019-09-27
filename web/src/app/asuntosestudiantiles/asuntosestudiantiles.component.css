@@ -1,3 +1,27 @@
+.animate-show-hide.ng-hide {
+  opacity: 0;
+}
+
+.animate-show-hide.ng-hide-add,
+.animate-show-hide.ng-hide-remove {
+  transition: all linear 0.5s;
+}
+
+.check-element {
+  border: 1px solid black;
+  opacity: 1;
+  padding: 10px;
+}
+
+
+.square {
+  width: 130px;
+  height: 130px;
+  border-radius: 0%;
+  float: left;
+  margin-right: 50px;
+}
+
 .btn {
 
   padding: 5px 15px;
@@ -30,7 +54,7 @@
 .btn2 {
   color: #ffffff;
   background-image: linear-gradient(360deg, blue 50%, red 50%);
-  font-family: "Arial Black";
+  font-family: tim;
 }
 
 .btn3 {
@@ -45,13 +69,105 @@
   font-family: "Arial Black";
 }
 
-.asuntos {
-  padding: 30px;
-  text-align: left;
-}
-
 
 /*IMPORTANTE!
 Hay que cambiar el color y el tamaño de los colores, aún así los botones ya son funcionales.
 Besitos :*
  */
+.circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 50px;
+}
+
+.rounded {
+  width: 130px;
+  height: 130px;
+  border-radius: 25%;
+  float: left;
+  margin-right: 50px;
+}
+
+.square {
+  width: 130px;
+  height: 130px;
+  border-radius: 0%;
+  float: left;
+  margin-right: 50px;
+}
+
+#circle {
+  background-color: #196F3D;
+}
+
+#rounded {
+  background-color: #5DADE2;
+}
+
+#square {
+  background-color: #58D68D;
+}
+
+CSS
+.bx {
+  display: none;
+  background: #ccc;
+  width: 200px;
+  height: 100px;
+}
+
+#trigger:checked + .bx {
+  display: block;
+}
+
+#trigger2:checked + .bx {
+  display: block;
+}
+
+#trigger3:checked + .bx {
+  display: block;
+}
+
+.bx {
+  display: none;
+  background: white;
+  width: 1400px;
+  height: 1700px;
+  top: 50%;
+  right: 50%;
+  overflow: visible
+}
+
+#trigger3:checked + .bx {
+  display: block;
+}
+
+#trigger2:checked + .bx {
+  display: block;
+}
+
+#trigger:checked + .bx {
+  display: block;
+}
+
+.convenio {
+  text-align: center;
+}
+
+.espacio h1 {
+  opacity: 0;
+}
+
+label {
+  background-image: linear-gradient(to right, skyblue, skyblue);
+  border-radius: 0px;
+  position: center;
+  background-size: 30px;
+
+}
+
+input[type = "checkbox"] {
+  position: center;
+}

@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { Router } from "@angular/router";
+import {Component, OnInit} from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-top-bar',
@@ -24,9 +24,9 @@ export class TopBarComponent implements OnInit {
       case "desarrollo":
         return "DESARROLLO LABORAL";
       case "apoyo":
-        return "APOYO Y BIENESTAR";
+        return "APOYO Y BIENESTAR ESTUDIANTIL";
       case "deportes":
-        return "DEPORTES";
+        return "DEPORTE Y ACTIVIDAD FÍSICA";
       case "asuntos":
         return "ASUNTOS ESTUDIANTILES";
       case "financiamiento":

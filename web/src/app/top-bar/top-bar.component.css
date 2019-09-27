@@ -6,9 +6,7 @@
 }
 
 .title {
-  font-size: 100% !important;
-  max-font-size: 50px;
-  min-font-size: 10px;
+  font-size: calc(12px + 1.5vw) !important;
   color: #ffffff;
   font-weight: bolder;
   text-align: right;

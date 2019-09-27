@@ -22,28 +22,6 @@
   margin-right: 50px;
 }
 
-.btn {
-
-  padding: 5px 15px;
-
-  background: #ccc;
-  height: 450px;
-  width: 450px;
-
-  cursor: pointer;
-
-  -webkit-border-radius: 5px; /* this is for chrome,safari */
-
-  border-radius: 40px;
-
-  color: green;
-
-  font-size: 20px;
-
-  text-transform: uppercase; /* all capital */
-
-}
-
 .btn1 {
   color: #0033cc;
   background-color: #66ccff;

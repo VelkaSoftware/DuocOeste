@@ -1,5 +1,5 @@
-import {Component, OnInit} from '@angular/core';
-import {Router} from "@angular/router";
+import { Component, OnInit } from '@angular/core';
+import { Router } from "@angular/router";
 
 @Component({
   selector: 'app-top-bar',
@@ -18,7 +18,7 @@ export class TopBarComponent implements OnInit {
     let url = this.normalizeUrl(this.router.url);
     switch (url) {
       case "inicio":
-        return "MENÚ PRINCIPAL";
+        return "";
       case "pastoral":
         return "PASTORAL";
       case "desarrollo":

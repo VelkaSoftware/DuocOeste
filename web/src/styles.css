@@ -64,11 +64,6 @@ app-top-bar {
   margin-bottom: 10px;
 }
 
-app-top-bar h1 {
-  color: white;
-  margin: 0;
-}
-
 @font-face {
   font-family: "MyriadPro";
   src: url("./assets/MyriadPro-Regular.otf") format("opentype");

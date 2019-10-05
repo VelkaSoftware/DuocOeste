@@ -11,6 +11,8 @@ import { PastoralComponent } from './pastoral/pastoral.component';
 import { DesarrolloComponent } from './desarrollo/desarrollo.component';
 import { ApoyoComponent } from './apoyo/apoyo.component';
 import { DeportesComponent } from './deportes/deportes.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 
 @NgModule({
@@ -27,7 +29,8 @@ import { DeportesComponent } from './deportes/deportes.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]

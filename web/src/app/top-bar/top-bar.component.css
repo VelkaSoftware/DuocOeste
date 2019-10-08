@@ -1,6 +1,6 @@
 .logo {
-  min-width: 50% !important;
-  max-width: 100% !important;
+  min-width: 50%;
+  max-width: 50%;
   height: auto;
   width: auto \9; /* ie8 */
 }
@@ -11,8 +11,4 @@
   font-weight: bolder;
   text-align: right;
   margin-left: auto;
-}
-
-a {
-  max-width: 50% !important;
 }

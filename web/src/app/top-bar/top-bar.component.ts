@@ -40,4 +40,7 @@ export class TopBarComponent implements OnInit {
     return url.replace('/', '');
   }
 
+  dashboard() {
+    this.router.navigate(['/'], {replaceUrl: true});
+  }
 }

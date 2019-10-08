@@ -16,6 +16,10 @@ body {
   flex-direction: row;
 }
 
+router-outlet {
+  margin-top: auto;
+}
+
 router-outlet + * {
   padding: 0 16px;
 }
@@ -27,11 +31,7 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
-}
-
-h1, h2 {
-  font-weight: lighter;
+  font-size: 20px !important;
 }
 
 p {
@@ -93,6 +93,7 @@ app-top-bar {
 .area-container {
   padding: 30px;
   text-align: justify;
+  font-size: 16px;
 }
 
 .area-img {
@@ -108,6 +109,13 @@ app-top-bar {
 
 .area-title {
   padding-left: 2%;
+  padding-right: 2%;
+  font-weight: bold !important;
+}
+
+.area-question {
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 .btn {

@@ -12,13 +12,11 @@ import {ApoyoComponent} from "./apoyo/apoyo.component";
 const routes: Routes = [
   {
     path: 'inicio',
-    component: DashboardComponent,
-    data: {title: 'Inicio'}
+    redirectTo: '/'
   },
   {
     path: '',
-    redirectTo: '/inicio',
-    pathMatch: 'full'
+    component: DashboardComponent,
   },
   {
     path: 'financiamiento',

@@ -17,8 +17,6 @@ export class TopBarComponent implements OnInit {
   getTitle() {
     let url = this.normalizeUrl(this.router.url);
     switch (url) {
-      case "inicio":
-        return "";
       case "pastoral":
         return "PASTORAL";
       case "desarrollo":
@@ -41,6 +39,6 @@ export class TopBarComponent implements OnInit {
   }
 
   dashboard() {
-    this.router.navigate(['/'], {replaceUrl: true});
+    this.router.navigate(['/'], {skipLocationChange: true});
   }
 }

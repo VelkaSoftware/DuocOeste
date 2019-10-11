@@ -15,6 +15,6 @@ export class DashboardComponent implements OnInit {
   }
 
   redirect(url: string) {
-    this.router.navigate([url]);
+    this.router.navigate([url], {skipLocationChange: true});
   }
 }

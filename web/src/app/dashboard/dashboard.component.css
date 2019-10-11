@@ -1,3 +1,4 @@
+/*La clase "c-buttons" corresponde a la clase que agrupa a los BTN , los cuales corresponden al conjunto de botones de la app(buttons) */
 .c-buttons {
   text-align: center;
   overflow: hidden;
@@ -24,6 +25,7 @@
   box-shadow: 0 0 4px 1px grey;
 }
 
+/*Cada Btn (botón) tiene sus propios atributos de presentación , como lo son el color (background-color) y la imagen (background-image) */
 .btn1 { /*financiamiento*/
   background-color: #FFA500;
   background-image: url("../../assets/financiamiento_Mesa de trabajo 1.png");

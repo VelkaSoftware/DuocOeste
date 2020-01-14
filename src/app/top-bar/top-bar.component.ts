@@ -39,6 +39,6 @@ export class TopBarComponent implements OnInit {
   }
 
   dashboard() {
-    this.router.navigate(['/'], {skipLocationChange: true});
+    this.router.navigate(['/']);
   }
 }

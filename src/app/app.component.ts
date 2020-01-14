@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { NavigationEnd, Router } from "@angular/router";
+import {Component, OnInit} from '@angular/core';
+import {NavigationEnd, Router} from "@angular/router";
 
 @Component({
   selector: 'app-root',
@@ -12,17 +12,12 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     var prevScrollpos = window.pageYOffset;
-    window.onscroll = function() {
+    window.onscroll = function () {
       var currentScrollPos = window.pageYOffset;
-      if (window.pageYOffset == 0) {
-        document.getElementById("top-bar").style.position = "static";
-      } else {
-        document.getElementById("top-bar").style.position = "fixed";
-      }
       if (prevScrollpos > currentScrollPos) {
         document.getElementById("top-bar").style.top = "0";
       } else {
-        document.getElementById("top-bar").style.top = "-500px";
+        document.getElementById("top-bar").style.top = "-10vh";
       }
       prevScrollpos = currentScrollPos;
     };

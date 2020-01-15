@@ -7,25 +7,31 @@ import {NavigationEnd, Router} from "@angular/router";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+
   constructor(private router: Router) {
   }
 
   ngOnInit() {
-    var prevScrollpos = window.pageYOffset;
     window.onscroll = function () {
-      var currentScrollPos = window.pageYOffset;
-      if (prevScrollpos > currentScrollPos) {
-        document.getElementById("top-bar").style.top = "0";
-      } else {
-        document.getElementById("top-bar").style.top = "-10vh";
-      }
-      prevScrollpos = currentScrollPos;
+      updateTopBar();
     };
     this.router.events.subscribe((evt) => {
       if (!(evt instanceof NavigationEnd)) {
         return;
       }
-      window.scrollTo(0, 0)
+      window.scrollTo(0, 0);
+      document.getElementById("top-bar").style.top = "0";
     });
   }
+}
+
+let prevScrollPos = window.pageYOffset;
+function updateTopBar() {
+  let currentScrollPos = window.pageYOffset;
+  if (prevScrollPos > currentScrollPos) {
+    document.getElementById("top-bar").style.top = "0";
+  } else {
+    document.getElementById("top-bar").style.top = "-10vh";
+  }
+  prevScrollPos = currentScrollPos;
 }

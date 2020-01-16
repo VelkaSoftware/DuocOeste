@@ -14,7 +14,7 @@ import {DeportesComponent} from './deportes/deportes.component';
 import {ServiceWorkerModule} from '@angular/service-worker';
 import {environment} from '../environments/environment';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatExpansionModule, MatFormFieldModule} from "@angular/material";
+import {MatButtonModule, MatExpansionModule, MatFormFieldModule, MatIconModule, MatTreeModule} from "@angular/material";
 
 
 @NgModule({
@@ -35,7 +35,11 @@ import {MatExpansionModule, MatFormFieldModule} from "@angular/material";
     ServiceWorkerModule.register('ngsw-worker.js', {enabled: environment.production}),
     BrowserAnimationsModule,
     MatExpansionModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatTreeModule,
+    MatTreeModule,
+    MatIconModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -63,7 +63,7 @@ a:hover {
 app-top-bar {
   min-width: 100%;
   height: 10vh;
-  background-color: lightgray;
+  background-color: #aeaeae;
   display: block;
   flex-direction: row;
   /*justify-content: space-between;*/
@@ -145,9 +145,8 @@ expandibles del Angular Material*/
   background-color: lightgray;
 }
 
-.paneles h1 {
+.paneles h2 {
   text-align: center;
-  font-family: sans-serif;
   margin: 0;
   position: relative;
   top: 50%;
@@ -156,8 +155,6 @@ expandibles del Angular Material*/
 }
 
 .inscripciones {
-  margin-left: 5vw;
-  margin-right: 5vw;
   background-color: lightgray;
   text-align: center;
   font-family: MyriadPro, sans-serif;
@@ -169,6 +166,10 @@ expandibles del Angular Material*/
   overflow-y: hidden;
   border: 0;
   width: 100%;
+}
+
+.deportivo iframe {
+  height: 1200px;
 }
 
 .btn {
@@ -192,7 +193,7 @@ body {
   font-family: "MyriadPro", Arial, Roboto, "Helvetica Neue", sans-serif;
 }
 
-.space{
+.space {
   visibility: hidden;
   height: 50px;
 }

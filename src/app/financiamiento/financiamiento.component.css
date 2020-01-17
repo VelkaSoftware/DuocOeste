@@ -1,0 +1,30 @@
+td, th {
+  padding: 5px;
+  border-spacing: 5px;
+}
+
+.top {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.content {
+
+}
+
+.table-text {
+  text-align: center;
+}
+
+.table-beneficio, .table-descripcion, .table-requisitos {
+  background-color: #002D56;
+}
+
+.table-beneficio {
+  width: 107px;
+}
+
+.table-descripcion, .table-requisitos {
+  width: 275px;
+}

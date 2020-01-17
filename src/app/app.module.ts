@@ -14,7 +14,11 @@ import {DeportesComponent} from './deportes/deportes.component';
 import {ServiceWorkerModule} from '@angular/service-worker';
 import {environment} from '../environments/environment';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatButtonModule, MatExpansionModule, MatFormFieldModule, MatIconModule, MatTreeModule} from "@angular/material";
+import { MatButtonModule } from "@angular/material/button";
+import { MatExpansionModule } from "@angular/material/expansion";
+import { MatFormFieldModule } from "@angular/material/form-field";
+import { MatIconModule } from "@angular/material/icon";
+import { MatTreeModule } from "@angular/material/tree";
 
 
 @NgModule({

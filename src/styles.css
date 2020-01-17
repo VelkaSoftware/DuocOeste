@@ -63,7 +63,7 @@ a:hover {
 app-top-bar {
   min-width: 100%;
   height: 10vh;
-  background-color: #aeaeae;
+  background-color: lightgray;
   display: block;
   flex-direction: row;
   /*justify-content: space-between;*/

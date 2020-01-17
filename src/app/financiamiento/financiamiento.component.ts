@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-financiamiento',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FinanciamientoComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) {
+  }
 
   ngOnInit() {
   }
 
+  becasInternas() {
+    this.router.navigate([this.router.url.split("#")[0]], {fragment: 'becas-duoc'});
+  }
 }

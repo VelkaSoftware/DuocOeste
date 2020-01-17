@@ -191,3 +191,8 @@ body {
   margin: 0;
   font-family: "MyriadPro", Arial, Roboto, "Helvetica Neue", sans-serif;
 }
+
+.space{
+  visibility: hidden;
+  height: 50px;
+}

@@ -48,11 +48,11 @@ interface ExampleFlatNode {
 
 
 @Component({
-  selector: 'app-asuntosestudiantiles',
-  templateUrl: './asuntosestudiantiles.component.html',
-  styleUrls: ['./asuntosestudiantiles.component.css']
+  selector: 'app-asuntos-estudiantiles',
+  templateUrl: './asuntos-estudiantiles.component.html',
+  styleUrls: ['./asuntos-estudiantiles.component.css']
 })
-export class AsuntosestudiantilesComponent implements OnInit {
+export class AsuntosEstudiantilesComponent implements OnInit {
   private _transformer = (node: FoodNode, level: number) => {
     return {
       expandable: !!node.children && node.children.length > 0,

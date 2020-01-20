@@ -51,7 +51,7 @@
    */
 }
 
-.btn3 { /* desarrollo laboral */
+.btn3 { /* desarrollo-laboral laboral */
   background-color: var(--desarrollo);
   background-image: url("../../assets/D.Laboral.png");
   background-repeat: no-repeat;
@@ -62,7 +62,7 @@
    */
 }
 
-.btn4 { /*apoyo y bienestar juvenil */
+.btn4 { /*apoyo-y-bienestar-estudiantil y bienestar juvenil */
   background-color: var(--apoyo);
   background-image: url("../../assets/Apoyo y bienestar_Mesa de trabajo 1.png");
   background-repeat: no-repeat;

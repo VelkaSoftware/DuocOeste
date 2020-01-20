@@ -19,9 +19,9 @@ export class TopBarComponent implements OnInit {
     switch (url) {
       case "pastoral":
         return "PASTORAL";
-      case "desarrollo":
+      case "desarrollo-laboral":
         return "DESARROLLO LABORAL";
-      case "apoyo":
+      case "apoyo-y-bienestar-estudiantil":
         return "APOYO Y BIENESTAR ESTUDIANTIL";
       case "deportes":
         return "DEPORTE Y ACTIVIDAD FÍSICA";

@@ -26,6 +26,7 @@ export class AppComponent implements OnInit {
 }
 
 let prevScrollPos = window.pageYOffset;
+
 function updateTopBar() {
   let currentScrollPos = window.pageYOffset;
   if (prevScrollPos > currentScrollPos) {

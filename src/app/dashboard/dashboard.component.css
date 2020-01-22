@@ -30,7 +30,7 @@
   /*background-color: var(--financiamiento);*/
   background-image: url("../../assets/icono Financiamiento.png");
   background-repeat: no-repeat;
-  background-size: 85% 85%;
+  background-size: 100% 100%;
   background-position: center;
   /*
   Colorizar botón con un gradiente:
@@ -43,7 +43,7 @@
   /*background-color: var(--pastoral);*/
   background-image: url("../../assets/icono Pastoral.png");
   background-repeat: no-repeat;
-  background-size: 85% 85%;
+  background-size: 100% 100%;
   background-position: center;
 
   /*
@@ -55,7 +55,7 @@
   /*background-color: var(--desarrollo);*/
   background-image: url("../../assets/icono Desarrollo laboral.png");
   background-repeat: no-repeat;
-  background-size: 85% 85%;
+  background-size: 100% 100%;
   background-position: center;
   /*
   background-image: linear-gradient(to left, #F24D19, #F24D19, #F24D19)
@@ -66,7 +66,7 @@
  /* background-color: var(--apoyo);*/
   background-image: url("../../assets/icono Apoyo y bienestar estudiantil.png");
   background-repeat: no-repeat;
-  background-size: 85% 85%;
+  background-size: 100% 100%;
   background-position: center;
   /*
   background-image: linear-gradient(to left, #2680ff, #2680ff, #2680ff)
@@ -77,7 +77,7 @@
  /* background-color: var(--deporte);*/
   background-image: url("../../assets/icono Deporte y actividad fisica.png");
   background-repeat: no-repeat;
-  background-size: 85% 85%;
+  background-size: 100% 100%;
   background-position: center;
   /*
 background-image: linear-gradient(to left, #40ff00, #40ff00, #40ff00)
@@ -88,7 +88,7 @@ background-image: linear-gradient(to left, #40ff00, #40ff00, #40ff00)
   /*background-color: var(--asuntos);*/
   background-image: url("../../assets/icono Asuntos estudiantiles.png");
   background-repeat: no-repeat;
-  background-size: 85% 85%;
+  background-size: 100% 100%;
   background-position: center;
   /*
 background-image: linear-gradient(to left, #ffb517, #ffb517, #ffb517)

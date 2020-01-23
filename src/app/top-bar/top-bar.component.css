@@ -16,6 +16,7 @@
 .back-arrow {
   background: none;
   border: none;
+  color: var(--financiamiento);
 }
 
 .title {

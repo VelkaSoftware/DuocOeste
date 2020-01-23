@@ -8,6 +8,7 @@ import {NavigationEnd, Router} from "@angular/router";
 })
 export class AppComponent implements OnInit {
 
+
   constructor(private router: Router) {
   }
 
@@ -21,7 +22,27 @@ export class AppComponent implements OnInit {
       }
       window.scrollTo(0, 0);
       document.getElementById("top-bar").style.top = "0";
+      this.updateLogo()
     });
+  }
+
+  updateLogo() {
+    if (this.isInit()) {
+      document.getElementById("logo").style.display = "unset";
+      document.getElementById("back").style.display = "none";
+    } else {
+      document.getElementById("logo").style.display = "none";
+      document.getElementById("back").style.display = "unset";
+    }
+  }
+
+  isInit() {
+    let url = this.normalizeUrl(this.router.url);
+    return url == "";
+  }
+
+  normalizeUrl(url: string) {
+    return url.replace('/', '');
   }
 }
 
@@ -29,7 +50,6 @@ let boxShadow = "0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 
 let prevScrollPos = window.pageYOffset;
 
 function updateTopBar() {
-  updateLogo();
   let currentScrollPos = window.pageYOffset;
   if (prevScrollPos > currentScrollPos) {
     document.getElementById("top-bar").style.top = "0";
@@ -39,23 +59,4 @@ function updateTopBar() {
     document.getElementById("top-bar").style.boxShadow = "none";
   }
   prevScrollPos = currentScrollPos;
-}
-
-function updateLogo() {
-  if (this.isInit()) {
-    document.getElementById("logo").style.display = "unset";
-    document.getElementById("back").style.display = "none";
-  } else {
-    document.getElementById("logo").style.display = "none";
-    document.getElementById("back").style.display = "unset";
-  }
-}
-
-function isInit() {
-  let url = this.normalizeUrl(this.router.url);
-  return url == "";
-}
-
-function normalizeUrl(url: string) {
-  return url.replace('/', '');
 }

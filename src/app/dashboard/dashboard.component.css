@@ -28,7 +28,7 @@
 /*Cada Btn (botón) tiene sus propios  atributos de presentación , como lo son el color (background-color) y la imagen (background-image) */
 .btn1 { /*financiamiento*/
   /*background-color: var(--financiamiento);*/
-  background-image: url("../../assets/icono Financiamiento.png");
+  background-image: url("../../assets/icono_financiamiento.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -41,7 +41,7 @@
 
 .btn2 { /*pastoral*/
   /*background-color: var(--pastoral);*/
-  background-image: url("../../assets/icono Pastoral.png");
+  background-image: url("../../assets/icono_pastoral.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -53,7 +53,7 @@
 
 .btn3 { /* desarrollo-laboral laboral */
   /*background-color: var(--desarrollo);*/
-  background-image: url("../../assets/icono Desarrollo laboral.png");
+  background-image: url("../../assets/icono_desarrollo_laboral.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -64,7 +64,7 @@
 
 .btn4 { /*apoyo-y-bienestar-estudiantil y bienestar juvenil */
  /* background-color: var(--apoyo);*/
-  background-image: url("../../assets/icono Apoyo y bienestar estudiantil.png");
+  background-image: url("../../assets/icono_apoyo_y_bienestar_estudiantil.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -75,7 +75,7 @@
 
 .btn5 { /*deportes */
  /* background-color: var(--deporte);*/
-  background-image: url("../../assets/icono Deporte y actividad fisica.png");
+  background-image: url("../../assets/icono_deporte_y_actividad_fisica.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -86,7 +86,7 @@ background-image: linear-gradient(to left, #40ff00, #40ff00, #40ff00)
 
 .btn6 { /*asuntos estudiantiles*/
   /*background-color: var(--asuntos);*/
-  background-image: url("../../assets/icono Asuntos estudiantiles.png");
+  background-image: url("../../assets/icono_asuntos_estudiantiles.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;

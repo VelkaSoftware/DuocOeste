@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {NavigationEnd, Router} from "@angular/router";
+declare var device;
 
 @Component({
   selector: 'app-root',
@@ -13,6 +14,9 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
+    document.addEventListener("deviceready", function() {
+      alert(device.platform);
+    }, false);
     window.onscroll = function () {
       updateTopBar();
     };

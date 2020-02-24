@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/peduoc.iml" filepath="$PROJECT_DIR$/.idea/peduoc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/wikiduoc.iml" filepath="$PROJECT_DIR$/.idea/wikiduoc.iml" />
     </modules>
   </component>
 </project>

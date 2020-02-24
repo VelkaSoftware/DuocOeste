@@ -25,4 +25,5 @@ jobs:
     - run: npm install cordova -g
     - run: npm install
     - run: ng build --prod
+    - run: cordova platform add android
     - run: cordova build android

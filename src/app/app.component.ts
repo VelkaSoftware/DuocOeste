@@ -14,9 +14,6 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    document.addEventListener("deviceready", function() {
-      alert(device.platform);
-    }, false);
     window.onscroll = function () {
       updateTopBar();
     };

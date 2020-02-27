@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.github.beelzebu.wikiduoc" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>WikiDuoc</name>
+<widget id="com.github.beelzebu.duocoeste" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>DuocOeste</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Aplicación informativa de Punto Estudiantil Duoc UC Plaza Oeste
     </description>
     <author email="ja.suarezl@alumnos.duoc.cl" href="https://github.com/Beelzebu">
         CITT Duoc UC Plaza Oeste

@@ -11,6 +11,10 @@ export class AppComponent implements OnInit {
 
 
   constructor(private router: Router) {
+    function onBackKeyDown() {
+      router.navigateByUrl('');
+    }
+    document.addEventListener("backbutton", onBackKeyDown, false);
   }
 
   ngOnInit() {
@@ -21,7 +25,6 @@ export class AppComponent implements OnInit {
       if (!(evt instanceof NavigationEnd)) {
         return;
       }
-      window.scrollTo(0, 0);
       document.getElementById("top-bar").style.top = "0";
       this.updateLogo()
     });

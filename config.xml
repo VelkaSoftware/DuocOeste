@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.github.beelzebu.duocoeste" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.github.beelzebu.duocoeste" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>DuocOeste</name>
     <description>
         Aplicación informativa de Punto Estudiantil Duoc UC Plaza Oeste
@@ -8,6 +8,7 @@
         CITT Duoc UC Plaza Oeste
     </author>
     <content src="index.html" />
+    <icon src="src/assets/icono_punto_estudiantil.png" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
     <allow-intent href="http://*/*" />

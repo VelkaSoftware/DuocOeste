@@ -23,6 +23,8 @@
     "@angular/platform-browser-dynamic": "~9.0.0-rc.9",
     "@angular/router": "~9.0.0-rc.9",
     "@angular/service-worker": "~9.0.0-rc.9",
+    "cordova-browser": "^6.0.0",
+    "cordova-ios": "^5.1.1",
     "rxjs": "~6.5.3",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
@@ -55,7 +57,9 @@
       "cordova-plugin-device": {}
     },
     "platforms": [
-      "android"
+      "android",
+      "ios",
+      "browser"
     ]
   }
 }

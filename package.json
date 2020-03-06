@@ -1,7 +1,7 @@
 {
   "name": "duocoeste",
   "description": "Aplicación de Punto Estudiantil Duoc UC Plaza Oeste",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

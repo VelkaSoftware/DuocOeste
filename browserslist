@@ -8,5 +8,9 @@
 > 0.5%
 last 2 versions
 Firefox ESR
+chrome 79
+chrome 78
+chrome 77
+chrome 49
 not dead
 not IE 9-11 # For IE 9-11 support, remove 'not'.

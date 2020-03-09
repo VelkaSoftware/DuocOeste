@@ -21,9 +21,11 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-    - run: npm install @angular/cli -g
-    - run: npm install cordova -g
     - run: npm install
-    - run: ng build --prod
-    - run: cordova platform add android
-    - run: cordova build android
+    - run: npx ng build --prod
+    - run: npx cordova platform add android
+      env:
+        CORDOVA_ANDROID_GRADLE_DISTRIBUTION_URL: 'https://services.gradle.org/distributions/gradle-6.2.2-all.zip'
+    - run: npx cordova build android
+      env:
+        CORDOVA_ANDROID_GRADLE_DISTRIBUTION_URL: 'https://services.gradle.org/distributions/gradle-6.2.2-all.zip'

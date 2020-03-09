@@ -25,7 +25,7 @@ jobs:
     - run: npx ng build --prod
     - run: npx cordova platform add android
       env:
-        CORDOVA_ANDROID_GRADLE_DISTRIBUTION_URL: 'https://services.gradle.org/distributions/gradle-6.2.1-all.zip'
+        CORDOVA_ANDROID_GRADLE_DISTRIBUTION_URL: 'https://services.gradle.org/distributions/gradle-5.4.1-all.zip'
     - run: npx cordova build android
       env:
-        CORDOVA_ANDROID_GRADLE_DISTRIBUTION_URL: 'https://services.gradle.org/distributions/gradle-6.2.1-all.zip'
+        CORDOVA_ANDROID_GRADLE_DISTRIBUTION_URL: 'https://services.gradle.org/distributions/gradle-5.4.1-all.zip'

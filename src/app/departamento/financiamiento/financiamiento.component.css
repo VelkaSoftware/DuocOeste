@@ -28,3 +28,7 @@ td, th {
 .table-descripcion, .table-requisitos {
   width: 275px;
 }
+
+mat-panel-title {
+  text-transform: uppercase;
+}

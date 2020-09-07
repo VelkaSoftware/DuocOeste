@@ -24,7 +24,7 @@
     "@angular/router": "~9.0.6",
     "cordova-browser": "^6.0.0",
     "cordova-ios": "^5.1.1",
-    "rxjs": "~6.5.3",
+    "rxjs": "~6.6.3",
     "tslib": "^1.11.1",
     "zone.js": "~0.10.3"
   },
